@@ -1,6 +1,6 @@
 # DSA‑Sprint
 
-An end‑to‑end 21‑day Data Structures & Algorithms sprint template using Node.js, VS Code + LeetCode extension, Obsidian, Git, and Anki.
+An end‑to‑end 6 week Data Structures & Algorithms sprint template using Node.js, VS Code + LeetCode extension, Obsidian, Git, and Anki.
 
 ## 📁 Repository Structure
 
@@ -10,9 +10,12 @@ An end‑to‑end 21‑day Data Structures & Algorithms sprint template using No
 ├── mocks               # Mock interview problems
 ├── notes               # Obsidian vault (daily & retro notes)
 │   ├── 00-patterns
+│   │   └── patterns.md.md
 │   ├── 01-daily
 │   ├── 02-retro
 │   └── 03-star
+│       └── star.md.md
+	
 ├── problems            # LeetCode problem files
 │   └── templates
 │       ├── base.js
@@ -57,7 +60,7 @@ An end‑to‑end 21‑day Data Structures & Algorithms sprint template using No
 6. **Anki**
    - Deck: `LeetCode-JS`
 
-## 1️⃣ Daily Micro‑Workflow (Mon–Sat, ~3–4 h/day)
+## 1️⃣ Daily Micro‑Workflow (Mon–Sat, ~1–2 h/day)
 
 | Step | Task                                          | ⏱️   |
 | :--: | :-------------------------------------------- | :--- |
@@ -70,63 +73,100 @@ An end‑to‑end 21‑day Data Structures & Algorithms sprint template using No
 |  6   | Document in Obsidian (daily note)             | 5 m  |
 |  7   | Create 2–3 Anki cards                         | 5 m  |
 |  8   | Git commit & push                             | 3 m  |
-|  9   | Timed drill (Week 2+; 3 medias back‑to‑back)  | 45 m |
+|  9   | Timed drill (optional)                        | 45 m |
 |  10  | Retro entry (retro note)                      | 5 m  |
 
 > **Tip:** Skip the timed drill on Day 1; aim to keep total ≤ 4 h.
 
-## 2️⃣ 21‑Day Syllabus
+## 2️⃣ 6‑Weeks Syllabus
 
-### Week 1 – Foundations
+### Week 1 – Arrays + Hash Map <br><small>filters: `#array`, `#hash-table`</small>
 
-- **Day 1**: Arrays & Hash‑Map
-  - ★ [1] Two Sum • ★ [217] Contains Duplicate • ★ [242] Valid Anagram • ★ [349] Intersection • ★★ [560] Subarray Sum = K • ★★ [15] 3‑Sum
-- **Day 2**: Sliding Window
-  - ★★ [3] Longest Substring w/o Repeat • ★★ [424] Longest Repeating Char Replacement • ★★ [567] Permutation in String • ★★ [76] Minimum Window Substring
-- **Day 3**: Two Pointers
-  - ★ [125] Valid Palindrome • ★ [344] Reverse String • ★★ [167] Two Sum II • ★★ [11] Container w/ Most Water • ★★ [18] 4‑Sum
-- **Day 4**: Prefix / Running Sum
-  - ★★ [53] Maximum Subarray • ★★ [1423] Maximum Points from Cards • ★★ [918] Maximum Sum Circular
-- **Day 5**: Sorting & Binary Search
-  - ★ [704] Binary Search • ★★ [33] Search in Rotated Sorted Array • ★★ [34] Find First/Last Position • ★★ [981] Time Based Key‑Value Store
-- **Day 6**: Review
-  - Re‑solve your 4 slowest starred problems
-- **Day 7**: Mock 0 + STAR
-  - 1 question from Contest tab; draft 2 STAR stories
+| Day | Main Problems (stop at 2 per day)              | Bonus                               |
+| --- | ---------------------------------------------- | ----------------------------------- |
+| Mon | ★ 1 Two‑Sum • ★★ 560 Subarray = K              | ★ 349 Intersection                  |
+| Tue | ★ 217 Contains Duplicate • ★ 242 Valid Anagram | (R) Re‑solve yesterday’s slower one |
+| Wed | ★★ 15 3‑Sum                                    | ★ 1 (speed run)                     |
+| Thu | (R) Any starred review • ★ 349 or 242          | —                                   |
+| Fri | ★★ 15 (2nd approach) • ★★ 560 (2nd approach)   | —                                   |
+| Sat | Lightning Mock (1 easy + 1 medium random)      | Fill daily & retro notes            |
 
-### Week 2 – Classic DS & Recursion
+---
 
-- **Day 8**: Linked Lists
-  - ★ [206] Reverse Linked List • ★ [141] Linked List Cycle • ★★ [19] Remove Nth Node • ★★ [143] Reorder List
-- **Day 9**: Stack & Monotonic Stack
-  - ★ [20] Valid Parentheses • ★★ [739] Daily Temperatures • ★★ [84] Largest Rectangle • ★★ [155] Min Stack
-- **Day 10**: Trees
-  - ★ [94] Inorder Traversal • ★ [102] Level‑Order Traversal • ★★ [105] Construct Binary Tree from Preorder & Inorder • ★★ [230] Kth Smallest in BST
-- **Day 11**: Backtracking
-  - ★ [78] Subsets • ★★ [46] Permutations • ★★ [51] N‑Queens • ★★ [79] Word Search
-- **Day 12**: Graph BFS/DFS
-  - ★ [200] Number of Islands • ★★ [133] Clone Graph • ★★ [417] Pacific Atlantic Water Flow • ★★ [127] Word Ladder
-- **Day 13**: Heap & Priority Queue
-  - ★ [215] Kth Largest Element in an Array • ★★ [347] Top K Frequent Elements • ★★ [23] Merge K Sorted Lists • ★★ [295] Find Median from Data Stream
-- **Day 14**: Mock 1
-  - LeetCode Interview → “Facebook” (45 min)
+### Week 2 – Sliding Window & Two Pointers <br><small>filters: `#sliding-window`, `#two-pointers`</small>
 
-### Week 3 – DP, Graph & Conditioning
+| Day    | Main Problems                                         | Bonus                          |
+|--------|-------------------------------------------------------|--------------------------------|
+| Mon    | ★★ 3 Longest Substring                                | ★★ 125 Valid Palindrome (two‑ptr) |
+| Tue    | ★★ 424 Longest Repeating • ★★ 567 Permutation in String | —                              |
+| Wed    | ★★ 76 Minimum Window                                  | (R) Re‑solve 3 (speed)         |
+| Thu    | ★★ 167 Two‑Sum II • ★ 344 Reverse String               | —                              |
+| Fri    | ★★ 11 Container w/ Most Water                         | ★★ 125 (alt approach)          |
+| Sat    | Timed Pair Drill: solve 424 & 567 back‑to‑back (≤30 min total) | Retro entry                   |
 
-- **Day 15**: Intro to DP
-  - ★ [70] Climbing Stairs • ★★ [198] House Robber • ★★ [213] House Robber II • ★★ [322] Coin Change
-- **Day 16**: Unbounded DP
-  - ★★ [518] Coin Change II • ★★ [279] Perfect Squares • ★★ [368] Largest Divisible Subset
-- **Day 17**: String DP
-  - ★★ [1143] Longest Common Subsequence • ★★ [72] Edit Distance • ★★ [647] Palindromic Substrings
-- **Day 18**: Dijkstra & Topo Sort
-  - ★★ [743] Network Delay Time • ★★ [787] Cheapest Flights Within K Stops • ★★ [207] Course Schedule I • ★★ [210] Course Schedule II
-- **Day 19**: Bit Manipulation & Math
-  - ★ [136] Single Number • ★★ [371] Sum of Two Integers • ★ [191] Number of 1 Bits • ★★ [338] Counting Bits
-- **Day 20**: Mock 2 + STAR
-  - External mock (Pramp/io) + finish STAR grid
-- **Day 21**: Capstone
-  - Pick 20 favourite problems → hide descriptions → re‑code blind (≤ 2 min each)
+---
+
+### Week 3 – Prefix‑Sum / Binary Search <br><small>filters: `keyword:"Kadane"`, `#binary-search`</small>
+
+| Day    | Main Problems                                | Bonus                                         |
+|--------|-----------------------------------------------|-----------------------------------------------|
+| Mon    | ★★ 53 Max Subarray (Kadane)                   | ★★ 918 Circular Subarray                      |
+| Tue    | ★★ 1423 Max Points from Cards                 | (R) 53 rewrite                                |
+| Wed    | ★ 704 Binary Search • ★★ 33 Search Rotated    | —                                             |
+| Thu    | ★★ 34 First/Last Position                     | ★★ 981 Time‑Based KV (if time)                |
+| Fri    | ★★ 918 or 981 (whichever left)                | (R) Any slow binary‑search Q                  |
+| Sat    | Mock 1 – LeetCode “Interview” set (FB or Amazon) • finish daily note | —                            |
+| Sun    | Pattern sheet rows → Kadane + 3 binary‑search templates • Clear Anki | —                       |
+
+---
+
+### Week 4 – Linked List → Stack → Tree
+
+| Day    | Main Problems                             | Bonus                       |
+|--------|--------------------------------------------|-----------------------------|
+| Mon    | ★ 206 Reverse LL • ★ 141 Cycle             | —                           |
+| Tue    | ★★ 19 Remove Nth Node                      | ★★ 143 Reorder List         |
+| Wed    | ★ 20 Valid Parentheses • ★★ 155 Min Stack  | —                           |
+| Thu    | ★★ 739 Daily Temperatures                  | (R) 20 speed               |
+| Fri    | ★ 94 In‑order Traversal • ★ 102 Level‑Order | —                           |
+| Sat    | Concept mini‑lab: Draw pointer diagrams for 19 & 143 • Retro note | —                        |
+
+---
+
+### Week 5 – Graphs & Backtracking
+
+| Day    | Main Problems                             | Bonus                       |
+|--------|--------------------------------------------|-----------------------------|
+| Mon    | ★ 78 Subsets • ★★ 46 Permutations          | —                           |
+| Tue    | ★★ 51 N‑Queens                             | (R) 78                      |
+| Wed    | ★★ 79 Word Search                          | —                           |
+| Thu    | ★ 200 Number of Islands • ★★ 133 Clone Graph | —                         |
+| Fri    | ★★ 417 Pacific Atlantic • ★★ 127 Word Ladder | —                         |
+| Sat    | ★ 215 Kth Largest • ★★ 347 Top K Frequent  | Retro                       |
+
+---
+
+### Week 6 – DP, Dijkstra, Bit Tricks
+
+| Day    | Main Problems                              | Bonus                       |
+|--------|---------------------------------------------|-----------------------------|
+| Mon    | ★ 70 Climb Stairs • ★★ 198 House Robber      | —                           |
+| Tue    | ★★ 213 House Robber II                      | ★★ 322 Coin Change          |
+| Wed    | ★★ 518 Coin Change II                       | ★★ 279 Perfect Squares      |
+| Thu    | ★★ 1143 LCS • ★★ 72 Edit Distance           | —                           |
+| Fri    | ★★ 743 Network Delay • ★★ 207 Course Sched I | —                           |
+| Sat    | ★★ 210 Course Sched II • ★ 136 Single Number • ★★ 371 Sum of Two Ints • ★★ 338 Counting Bits • Retro | — |
+
+---
+
+### Week 7 – Mock & Capstone
+
+- **Day 38 (Mon)**
+  - 45‑min external mock → debrief
+  - Pick any 15 hardest solved mediums → re‑code blindfolded (≤20 min each)
+  - Review full STAR grid (behavioural stories)
+
+
 
 ## 🔄 3️⃣ Weekly Ritual (Every Sunday)
 
