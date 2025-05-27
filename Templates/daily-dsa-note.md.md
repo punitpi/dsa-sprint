@@ -17,8 +17,10 @@ totalTime:                    # e.g. 3h15m
 - 
 
 ## Complexity
-* Time :
-* Space :
+| Problem | Time | Space |
+| ------- | ---- | ----- |
+|         |      |       |
+|         |      |       |
 
 ### Mini-Summary
 | Problem | Pattern | Time / Space | Edge-case | Mistake |

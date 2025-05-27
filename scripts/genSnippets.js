@@ -7,7 +7,7 @@ const configs = [
   {
     file: 'base.js',
     name: 'Fast IO Boilerplate',
-    prefix: 'fast',
+    prefix: 'basefast',
     desc: 'Fast IO (prefix fast)'
   },
   {
@@ -56,8 +56,8 @@ for (const { file, name, prefix, desc } of configs) {
 const outDir = path.join(__dirname, '..', '.vscode')
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir)
 fs.writeFileSync(
-  path.join(outDir, 'javascript.json'),
+  path.join(outDir, 'javascript.json.code-snippets'),
   JSON.stringify(snippets, null, 2),
   'utf8'
 )
-console.log('✅ snippets written to .vscode/javascript.json')
+console.log('✅ snippets written to .vscode/javascript.json.code-snippets')
