@@ -82,80 +82,80 @@ An end‑to‑end 6 week Data Structures & Algorithms sprint template using Node
 
 ### Week 1 – Arrays + Hash Map <br><small>filters: `#array`, `#hash-table`</small>
 
-| Day | Main Problems (stop at 2 per day)              | Bonus                               |
-| --- | ---------------------------------------------- | ----------------------------------- |
-| Mon | ★ 1 Two‑Sum • ★★ 560 Subarray = K              | ★ 349 Intersection                  |
-| Tue | ★ 217 Contains Duplicate • ★ 242 Valid Anagram | (R) Re‑solve yesterday’s slower one |
-| Wed | ★★ 15 3‑Sum                                    | ★ 1 (speed run)                     |
-| Thu | (R) Any starred review • ★ 349 or 242          | —                                   |
-| Fri | ★★ 15 (2nd approach) • ★★ 560 (2nd approach)   | —                                   |
-| Sat | Lightning Mock (1 easy + 1 medium random)      | Fill daily & retro notes            |
+| Day | Main Problems (stop at 2 per day)              | Bonus                               | Status             |
+| --- | ---------------------------------------------- | ----------------------------------- | ------------------ |
+| Mon | ★ 1 Two‑Sum • ★★ 560 Subarray = K              | ★ 349 Intersection                  | <center>✅</center> |
+| Tue | ★ 217 Contains Duplicate • ★ 242 Valid Anagram | (R) Re‑solve yesterday’s slower one | <center></center>  |
+| Wed | ★★ 15 3‑Sum                                    | ★ 1 (speed run)                     | <center></center>  |
+| Thu | (R) Any starred review • ★ 349 or 242          | —                                   | <center></center>  |
+| Fri | ★★ 15 (2nd approach) • ★★ 560 (2nd approach)   | —                                   | <center></center>  |
+| Sat | Lightning Mock (1 easy + 1 medium random)      | Fill daily & retro notes            | <center></center>  |
 
 ---
 
 ### Week 2 – Sliding Window & Two Pointers <br><small>filters: `#sliding-window`, `#two-pointers`</small>
 
-| Day    | Main Problems                                         | Bonus                          |
-|--------|-------------------------------------------------------|--------------------------------|
-| Mon    | ★★ 3 Longest Substring                                | ★★ 125 Valid Palindrome (two‑ptr) |
-| Tue    | ★★ 424 Longest Repeating • ★★ 567 Permutation in String | —                              |
-| Wed    | ★★ 76 Minimum Window                                  | (R) Re‑solve 3 (speed)         |
-| Thu    | ★★ 167 Two‑Sum II • ★ 344 Reverse String               | —                              |
-| Fri    | ★★ 11 Container w/ Most Water                         | ★★ 125 (alt approach)          |
-| Sat    | Timed Pair Drill: solve 424 & 567 back‑to‑back (≤30 min total) | Retro entry                   |
+| Day | Main Problems                                                  | Bonus                             | Status            |
+| --- | -------------------------------------------------------------- | --------------------------------- | ----------------- |
+| Mon | ★★ 3 Longest Substring                                         | ★★ 125 Valid Palindrome (two‑ptr) | <center></center> |
+| Tue | ★★ 424 Longest Repeating • ★★ 567 Permutation in String        | —                                 | <center></center> |
+| Wed | ★★ 76 Minimum Window                                           | (R) Re‑solve 3 (speed)            | <center></center> |
+| Thu | ★★ 167 Two‑Sum II • ★ 344 Reverse String                       | —                                 | <center></center> |
+| Fri | ★★ 11 Container w/ Most Water                                  | ★★ 125 (alt approach)             | <center></center> |
+| Sat | Timed Pair Drill: solve 424 & 567 back‑to‑back (≤30 min total) | Retro entry                       | <center></center> |
 
 ---
 
 ### Week 3 – Prefix‑Sum / Binary Search <br><small>filters: `keyword:"Kadane"`, `#binary-search`</small>
 
-| Day    | Main Problems                                | Bonus                                         |
-|--------|-----------------------------------------------|-----------------------------------------------|
-| Mon    | ★★ 53 Max Subarray (Kadane)                   | ★★ 918 Circular Subarray                      |
-| Tue    | ★★ 1423 Max Points from Cards                 | (R) 53 rewrite                                |
-| Wed    | ★ 704 Binary Search • ★★ 33 Search Rotated    | —                                             |
-| Thu    | ★★ 34 First/Last Position                     | ★★ 981 Time‑Based KV (if time)                |
-| Fri    | ★★ 918 or 981 (whichever left)                | (R) Any slow binary‑search Q                  |
-| Sat    | Mock 1 – LeetCode “Interview” set (FB or Amazon) • finish daily note | —                            |
-| Sun    | Pattern sheet rows → Kadane + 3 binary‑search templates • Clear Anki | —                       |
+| Day | Main Problems                                                        | Bonus                          | Status            |
+| --- | -------------------------------------------------------------------- | ------------------------------ | ----------------- |
+| Mon | ★★ 53 Max Subarray (Kadane)                                          | ★★ 918 Circular Subarray       | <center></center> |
+| Tue | ★★ 1423 Max Points from Cards                                        | (R) 53 rewrite                 | <center></center> |
+| Wed | ★ 704 Binary Search • ★★ 33 Search Rotated                           | —                              | <center></center> |
+| Thu | ★★ 34 First/Last Position                                            | ★★ 981 Time‑Based KV (if time) | <center></center> |
+| Fri | ★★ 918 or 981 (whichever left)                                       | (R) Any slow binary‑search Q   | <center></center> |
+| Sat | Mock 1 – LeetCode “Interview” set (FB or Amazon) • finish daily note | —                              | <center></center> |
+| Sun | Pattern sheet rows → Kadane + 3 binary‑search templates • Clear Anki | —                              | <center></center> |
 
 ---
 
 ### Week 4 – Linked List → Stack → Tree
 
-| Day    | Main Problems                             | Bonus                       |
-|--------|--------------------------------------------|-----------------------------|
-| Mon    | ★ 206 Reverse LL • ★ 141 Cycle             | —                           |
-| Tue    | ★★ 19 Remove Nth Node                      | ★★ 143 Reorder List         |
-| Wed    | ★ 20 Valid Parentheses • ★★ 155 Min Stack  | —                           |
-| Thu    | ★★ 739 Daily Temperatures                  | (R) 20 speed               |
-| Fri    | ★ 94 In‑order Traversal • ★ 102 Level‑Order | —                           |
-| Sat    | Concept mini‑lab: Draw pointer diagrams for 19 & 143 • Retro note | —                        |
+| Day | Main Problems                                                     | Bonus               | Status            |
+| --- | ----------------------------------------------------------------- | ------------------- | ----------------- |
+| Mon | ★ 206 Reverse LL • ★ 141 Cycle                                    | —                   | <center></center> |
+| Tue | ★★ 19 Remove Nth Node                                             | ★★ 143 Reorder List | <center></center> |
+| Wed | ★ 20 Valid Parentheses • ★★ 155 Min Stack                         | —                   | <center></center> |
+| Thu | ★★ 739 Daily Temperatures                                         | (R) 20 speed        | <center></center> |
+| Fri | ★ 94 In‑order Traversal • ★ 102 Level‑Order                       | —                   | <center></center> |
+| Sat | Concept mini‑lab: Draw pointer diagrams for 19 & 143 • Retro note | —                   | <center></center> |
 
 ---
 
 ### Week 5 – Graphs & Backtracking
 
-| Day    | Main Problems                             | Bonus                       |
-|--------|--------------------------------------------|-----------------------------|
-| Mon    | ★ 78 Subsets • ★★ 46 Permutations          | —                           |
-| Tue    | ★★ 51 N‑Queens                             | (R) 78                      |
-| Wed    | ★★ 79 Word Search                          | —                           |
-| Thu    | ★ 200 Number of Islands • ★★ 133 Clone Graph | —                         |
-| Fri    | ★★ 417 Pacific Atlantic • ★★ 127 Word Ladder | —                         |
-| Sat    | ★ 215 Kth Largest • ★★ 347 Top K Frequent  | Retro                       |
+| Day | Main Problems                                | Bonus  | Status            |
+| --- | -------------------------------------------- | ------ | ----------------- |
+| Mon | ★ 78 Subsets • ★★ 46 Permutations            | —      | <center></center> |
+| Tue | ★★ 51 N‑Queens                               | (R) 78 | <center></center> |
+| Wed | ★★ 79 Word Search                            | —      | <center></center> |
+| Thu | ★ 200 Number of Islands • ★★ 133 Clone Graph | —      | <center></center> |
+| Fri | ★★ 417 Pacific Atlantic • ★★ 127 Word Ladder | —      | <center></center> |
+| Sat | ★ 215 Kth Largest • ★★ 347 Top K Frequent    | Retro  | <center></center> |
 
 ---
 
 ### Week 6 – DP, Dijkstra, Bit Tricks
 
-| Day    | Main Problems                              | Bonus                       |
-|--------|---------------------------------------------|-----------------------------|
-| Mon    | ★ 70 Climb Stairs • ★★ 198 House Robber      | —                           |
-| Tue    | ★★ 213 House Robber II                      | ★★ 322 Coin Change          |
-| Wed    | ★★ 518 Coin Change II                       | ★★ 279 Perfect Squares      |
-| Thu    | ★★ 1143 LCS • ★★ 72 Edit Distance           | —                           |
-| Fri    | ★★ 743 Network Delay • ★★ 207 Course Sched I | —                           |
-| Sat    | ★★ 210 Course Sched II • ★ 136 Single Number • ★★ 371 Sum of Two Ints • ★★ 338 Counting Bits • Retro | — |
+| Day | Main Problems                                                                                        | Bonus                  | Status            |
+| --- | ---------------------------------------------------------------------------------------------------- | ---------------------- | ----------------- |
+| Mon | ★ 70 Climb Stairs • ★★ 198 House Robber                                                              | —                      | <center></center> |
+| Tue | ★★ 213 House Robber II                                                                               | ★★ 322 Coin Change     | <center></center> |
+| Wed | ★★ 518 Coin Change II                                                                                | ★★ 279 Perfect Squares | <center></center> |
+| Thu | ★★ 1143 LCS • ★★ 72 Edit Distance                                                                    | —                      | <center></center> |
+| Fri | ★★ 743 Network Delay • ★★ 207 Course Sched I                                                         | —                      | <center></center> |
+| Sat | ★★ 210 Course Sched II • ★ 136 Single Number • ★★ 371 Sum of Two Ints • ★★ 338 Counting Bits • Retro | —                      | <center></center> |
 
 ---
 
