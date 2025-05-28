@@ -82,14 +82,14 @@ An end‑to‑end 6 week Data Structures & Algorithms sprint template using Node
 
 ### Week 1 – Arrays + Hash Map <br><small>filters: `#array`, `#hash-table`</small>
 
-| Day | Main Problems (stop at 2 per day)              | Bonus                               | Status             |
-| --- | ---------------------------------------------- | ----------------------------------- | ------------------ |
-| 1   | ★ 1 Two‑Sum • ★★ 560 Subarray = K              | ★ 349 Intersection                  | <center>✅</center> |
-| 2   | ★ 217 Contains Duplicate • ★ 242 Valid Anagram | (R) Re‑solve yesterday’s slower one | <center></center>  |
-| 3   | ★★ 15 3‑Sum                                    | ★ 1 (speed run)                     | <center></center>  |
-| 4   | (R) Any starred review • ★ 349 or 242          | —                                   | <center></center>  |
-| 5   | ★★ 15 (2nd approach) • ★★ 560 (2nd approach)   | —                                   | <center></center>  |
-| 6   | Lightning Mock (1 easy + 1 medium random)      | Fill daily & retro notes            | <center></center>  |
+| Day | Main Problems (stop at 2 per day)              | Bonus                               | Status             | Bonus Status       |
+| --- | ---------------------------------------------- | ----------------------------------- | ------------------ | ------------------ |
+| 1   | ★ 1 Two‑Sum • ★★ 560 Subarray = K              | ★ 349 Intersection                  | <center>✅</center> | <center>✅</center> |
+| 2   | ★ 217 Contains Duplicate • ★ 242 Valid Anagram | (R) Re‑solve yesterday’s slower one | <center>✅</center> | <center></center>  |
+| 3   | ★★ 15 3‑Sum                                    | ★ 1 (speed run)                     | <center></center>  |                    |
+| 4   | (R) Any starred review • ★ 349 or 242          | —                                   | <center></center>  |                    |
+| 5   | ★★ 15 (2nd approach) • ★★ 560 (2nd approach)   | —                                   | <center></center>  |                    |
+| 6   | Lightning Mock (1 easy + 1 medium random)      | Fill daily & retro notes            | <center></center>  |                    |
 
 ---
 

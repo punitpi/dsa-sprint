@@ -23,6 +23,7 @@ totalTime:                    # e.g. 3h15m
 |         |      |       |
 
 ### Mini-Summary
-| Problem | Pattern | Time / Space | Edge-case | Mistake |
-|---------|---------|--------------|-----------|---------|
-|         |         |              |           |         |
+| Problem | Pattern | Time / Space | Edge-case | Mistake | Time Taken |
+| ------- | ------- | ------------ | --------- | ------- | ---------- |
+|         |         |              |           |         |            |
+|         |         |              |           |         |            |
